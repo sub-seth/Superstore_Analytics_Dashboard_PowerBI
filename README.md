@@ -33,7 +33,33 @@ The **Superstore Analytics Dashboard** helps answer key business questions such 
 ## 🗂 Dataset
 - **Source**: Excel file  
 - **Connection Mode**: Import  
-- The dataset contains order-level details including **Product, Category, Region, Sales, Profit, Quantity, and Returns**.  
+- **Columns Included**:  
+
+| Column Name       | Description |
+|-------------------|-------------|
+| **Row ID**        | Unique identifier for each row/transaction |
+| **Order ID**      | Unique order reference number |
+| **Order Date**    | Date when the order was placed |
+| **Ship Date**     | Date when the order was shipped |
+| **Ship Mode**     | Shipping method |
+| **Customer ID**   | Unique identifier for each customer |
+| **Customer Name** | Name of the customer |
+| **Segment**       | Customer segment |
+| **Country/Region**| Country or region of the order |
+| **City**          | City where the order was placed |
+| **State/Province**| State or province of the order |
+| **Postal Code**   | Postal code of the shipping address |
+| **Region**        | Geographic region |
+| **Product ID**    | Unique identifier for each product |
+| **Category**      | High-level product category |
+| **Sub-Category**  | Detailed product classification |
+| **Product Name**  | Name of the product |
+| **Sales**         | Revenue generated from the order |
+| **Quantity**      | Number of units sold |
+| **Discount**      | Discount applied on the order |
+| **Profit**        | Profit earned from the order |
+
+This dataset allows for **granular analysis** of sales, profit, discounts, product categories, and regional performance.
 
 ---
 
